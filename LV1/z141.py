@@ -1,3 +1,7 @@
+def total_euro(hours, wage):
+    return hours * wage
+
 hours = int(input('Radni sati: '))
-euros_per_hour = float(input('eura/h: '))
-print(f"Ukupno: {hours*euros_per_hour} eura")
+wage = float(input('eura/h: '))
+
+print(f"Ukupno: {total_euro(hours, wage)} eura")
